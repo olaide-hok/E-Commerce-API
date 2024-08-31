@@ -1,4 +1,4 @@
-# E-commerce-API
+# E-Commerce-API
 
 <!--- If we have only one group/collection, then no need for the "ungrouped" heading -->
 
@@ -45,7 +45,7 @@
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/auth/logout
+URL: https://e-commerce-api-nox6.onrender.com/auth/logout
 ```
 
 ### 2. Login User
@@ -55,7 +55,7 @@ URL: http://localhost:5000/auth/logout
 ```bash
 Method: POST
 Type: RAW
-URL: http://localhost:5000/auth/login
+URL: https://e-commerce-api-nox6.onrender.com/auth/login
 ```
 
 **_Body:_**
@@ -74,7 +74,7 @@ URL: http://localhost:5000/auth/login
 ```bash
 Method: POST
 Type: RAW
-URL: http://localhost:5000/auth/register
+URL: https://e-commerce-api-nox6.onrender.com/auth/register
 ```
 
 **_Body:_**
@@ -96,7 +96,7 @@ URL: http://localhost:5000/auth/register
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/users
+URL: https://e-commerce-api-nox6.onrender.com/users
 ```
 
 ### 2. Get Single User
@@ -106,7 +106,7 @@ URL: http://localhost:5000/users
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/users/123
+URL: https://e-commerce-api-nox6.onrender.com/users/123
 ```
 
 ### 3. Show Current User
@@ -116,7 +116,7 @@ URL: http://localhost:5000/users/123
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/users/showMe
+URL: https://e-commerce-api-nox6.onrender.com/users/showMe
 ```
 
 ### 4. Update User
@@ -126,7 +126,7 @@ URL: http://localhost:5000/users/showMe
 ```bash
 Method: PATCH
 Type: RAW
-URL: http://localhost:5000/users/updateUser
+URL: https://e-commerce-api-nox6.onrender.com/users/updateUser
 ```
 
 **_Body:_**
@@ -144,7 +144,7 @@ URL: http://localhost:5000/users/updateUser
 ```bash
 Method: PATCH
 Type: RAW
-URL: http://localhost:5000/users/updateUserPassword
+URL: https://e-commerce-api-nox6.onrender.com/users/updateUserPassword
 ```
 
 **_Body:_**
@@ -165,7 +165,7 @@ URL: http://localhost:5000/users/updateUserPassword
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/products
+URL: https://e-commerce-api-nox6.onrender.com/products
 ```
 
 ### 2. Create Product
@@ -175,7 +175,7 @@ URL: http://localhost:5000/products
 ```bash
 Method: POST
 Type: RAW
-URL: http://localhost:5000/products
+URL: https://e-commerce-api-nox6.onrender.com/products
 ```
 
 **_Body:_**
@@ -199,7 +199,7 @@ URL: http://localhost:5000/products
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/products/66d0c5b8869821da7d9ebb74
+URL: https://e-commerce-api-nox6.onrender.com/products/66d0c5b8869821da7d9ebb74
 ```
 
 ### 4. Update Product
@@ -209,7 +209,7 @@ URL: http://localhost:5000/products/66d0c5b8869821da7d9ebb74
 ```bash
 Method: PATCH
 Type: RAW
-URL: http://localhost:5000/products/66d0c5b8869821da7d9ebb74
+URL: https://e-commerce-api-nox6.onrender.com/products/66d0c5b8869821da7d9ebb74
 ```
 
 **_Body:_**
@@ -227,7 +227,7 @@ URL: http://localhost:5000/products/66d0c5b8869821da7d9ebb74
 ```bash
 Method: DELETE
 Type: RAW
-URL: http://localhost:5000/products/66d0c5a1869821da7d9ebb72
+URL: https://e-commerce-api-nox6.onrender.com/products/66d0c5a1869821da7d9ebb72
 ```
 
 ### 6. Upload Image
@@ -237,7 +237,7 @@ URL: http://localhost:5000/products/66d0c5a1869821da7d9ebb72
 ```bash
 Method: POST
 Type: FORMDATA
-URL: http://localhost:5000/products/uploadImage
+URL: https://e-commerce-api-nox6.onrender.com/products/uploadImage
 ```
 
 ## Review
@@ -249,7 +249,7 @@ URL: http://localhost:5000/products/uploadImage
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/reviews
+URL: https://e-commerce-api-nox6.onrender.com/reviews
 ```
 
 ### 2. Create Review
@@ -259,7 +259,7 @@ URL: http://localhost:5000/reviews
 ```bash
 Method: POST
 Type: RAW
-URL: http://localhost:5000/reviews
+URL: https://e-commerce-api-nox6.onrender.com/reviews
 ```
 
 **_Body:_**
@@ -280,7 +280,7 @@ URL: http://localhost:5000/reviews
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/reviews/1234
+URL: https://e-commerce-api-nox6.onrender.com/reviews/1234
 ```
 
 ### 4. Update Review
@@ -290,7 +290,7 @@ URL: http://localhost:5000/reviews/1234
 ```bash
 Method: PATCH
 Type: RAW
-URL: http://localhost:5000/reviews/66d20b796e27cbe4458b2c27
+URL: https://e-commerce-api-nox6.onrender.com/reviews/66d20b796e27cbe4458b2c27
 ```
 
 **_Body:_**
@@ -310,7 +310,7 @@ URL: http://localhost:5000/reviews/66d20b796e27cbe4458b2c27
 ```bash
 Method: DELETE
 Type:
-URL: http://localhost:5000/reviews/1234
+URL: https://e-commerce-api-nox6.onrender.com/reviews/1234
 ```
 
 ## Order
@@ -322,7 +322,7 @@ URL: http://localhost:5000/reviews/1234
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/orders
+URL: https://e-commerce-api-nox6.onrender.com/orders
 ```
 
 ### 2. Get Single Order
@@ -332,7 +332,7 @@ URL: http://localhost:5000/orders
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/orders/66d222685f655544c0bfbe43
+URL: https://e-commerce-api-nox6.onrender.com/orders/66d222685f655544c0bfbe43
 ```
 
 ### 3. Create Order
@@ -342,7 +342,7 @@ URL: http://localhost:5000/orders/66d222685f655544c0bfbe43
 ```bash
 Method: POST
 Type: RAW
-URL: http://localhost:5000/orders
+URL: https://e-commerce-api-nox6.onrender.com/orders
 ```
 
 **_Body:_**
@@ -377,7 +377,7 @@ URL: http://localhost:5000/orders
 ```bash
 Method: PATCH
 Type: RAW
-URL: http://localhost:5000/orders/66d222685f655544c0bfbe43
+URL: https://e-commerce-api-nox6.onrender.com/orders/66d222685f655544c0bfbe43
 ```
 
 **_Body:_**
@@ -395,9 +395,7 @@ URL: http://localhost:5000/orders/66d222685f655544c0bfbe43
 ```bash
 Method: GET
 Type:
-URL: http://localhost:5000/orders/showAllMyOrders
+URL: https://e-commerce-api-nox6.onrender.com/orders/showAllMyOrders
 ```
 
 ---
-
-[Back to top](#e-commerce-api)
